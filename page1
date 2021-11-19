@@ -24,10 +24,10 @@
 
 <body>
   <!-- สีพื้นหลัง -->
-  <div class="w-auto p-3" style="background-color: #eee;">
+  <div class="w-auto p-3" style="background-color: #e0ffc1;">
    <!-- New Navbar  แบบใหม่ -->
     <div class="container"> 
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success">
         <?var url = getUrl();?><a class="navbar-brand" href="<?=url?>?page=homepage">ชัยรัตน์เฟอร์นิเจอร์</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
