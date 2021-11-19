@@ -37,7 +37,7 @@
           <?var url = getUrl();?><a class="nav-item nav-link active" href="<?=url?>?page=homepage">หน้าหลัก<span class="sr-only">(current)</span></a>
           <?var url = getUrl();?><a class="nav-link" href="<?=url?>?page=index">บันทึกรายการสั้งซื้อสินค้า</a>
           <?var url = getUrl();?><a class="nav-link" href="<?=url?>?page=page1">รายการบันทึกสินค้า</a>
-          <?var url = getUrl();?><a class="nav-link" href="https://datastudio.google.com/reporting/8adadbd1-cf69-4599-a098-6edc67372024">Statisric</a>
+          <?var url = getUrl();?><a class="nav-link" href="https://datastudio.google.com/reporting/8adadbd1-cf69-4599-a098-6edc67372024">Statisric</a>     <!--Edit-->
         </div>
       </div>
       </nav>
