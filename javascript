@@ -75,7 +75,7 @@
     document.getElementById('name').value = records[0][1];
     document.getElementById('textid').value = records[0][4];
     document.getElementById('phone').value = records[0][5];
-    document.getElementById(records[0][2] =='มอเตอร์ไซค์'? 'moto':'car').checked = true;
+    document.getElementById(records[0][2] =='เพศ'? 'ชาย':'หญิง').checked = true;
     document.getElementById("type").value = records[0][6];
     document.getElementById("detail").value = records[0][6];
     document.getElementById("message").innerHTML = "<div class='alert alert-warning' role='alert'>Update Record [ID: "+records[0][0]+"]</div>";
