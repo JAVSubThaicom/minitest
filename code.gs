@@ -11,7 +11,7 @@ function doGet(e) {
 
 function globalVariables(){ 
   var varArray = {
-    spreadsheetId   : '1CTEXGaU8VvnGqfapxd14qkVf2BNTWpj6wPSJ4CEME54', //** CHANGE !!!!!!!!!!!!!!!!!!!!!!!!!
+    spreadsheetId   : '1CTEXGaU8VvnGqfapxd14qkVf2BNTWpj6wPSJ4CEME54', //** CHANGE !!!!!!!!!!!!!!!!!!!!!!!!!Editttttt
     dataRage        : 'data!A2:G',                                    //** CHANGE !!!
     idRange         : 'data!A2:A',                                    //** CHANGE !!!
     lastCol         : 'G',                                            //** CHANGE !!!
