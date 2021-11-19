@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/ad42651166.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+     <!-- Google fonts link-->   
+    <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet' type='text/css'>
+    <?!= include('javascript'); ?> <!-- javascript.html file -->
+    <?!= include('css'); ?> <!-- css.html file -->
+  <title></title>
+</head>
+
+<body>
+  <!-- สีพื้นหลัง -->
+  <div class="w-auto p-3" style="background-color: #eee;">
+     <!-- New Navbar  แบบใหม่ -->
+    <div class="container"> 
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <?var url = getUrl();?><a class="navbar-brand" href="<?=url?>?page=homepage">ชัยรัตน์เฟอร์นิเจอร์</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <?var url = getUrl();?><a class="nav-item nav-link active" href="<?=url?>?page=homepage">หน้าหลัก<span class="sr-only">(current)</span></a>
+            <?var url = getUrl();?><a class="nav-link" href="<?=url?>?page=index">บันทึกรายการสั้งซื้อสินค้า</a>
+            <?var url = getUrl();?><a class="nav-link" href="<?=url?>?page=page1">รายการบันทึกสินค้า</a>
+            <?var url = getUrl();?><a class="nav-link" href="https://datastudio.google.com/reporting/8adadbd1-cf69-4599-a098-6edc67372024">Statisric</a>
+        
+
+ </div>
+        </div>
+      </nav>
+     </div> 
+<br>
+      <!--form.html File -->
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <?!= include('form'); ?> 
+               </div>
+            </div>
+          </div>      
+  </div>
+</body>
+</html>
