@@ -1,0 +1,1 @@
+=QUERY(data!A2:F,"select * where F= 'ค่าที่ต้องการหา'")
