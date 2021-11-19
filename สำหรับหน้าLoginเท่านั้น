@@ -12,7 +12,7 @@ function webAppUrl() {
 
 
 
-<--!สำหรับหน้า Login-->
+<!--สำหรับหน้า Login-->
 
 
 login
@@ -32,12 +32,12 @@ login
     <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
     <script>
         var firebaseConfig = { 
-        apiKey: "AIzaSyDHryKi_c8v4ZLZkKbEa6TRboQobCcP1G8",<--! Edit!!!!!!!!!!!!!! -->
+        apiKey: "AIzaSyDHryKi_c8v4ZLZkKbEa6TRboQobCcP1G8",<!-- Edit!!!!!!!!!!!!!! -->
         authDomain: "login-minicar.firebaseapp.com",
         projectId: "login-minicar",
         storageBucket: "login-minicar.appspot.com",
         messagingSenderId: "963440550446",
-        appId: "1:963440550446:web:f444189af96fdeaf52f5bf"<--! End Edit -->
+        appId: "1:963440550446:web:f444189af96fdeaf52f5bf"<!-- End Edit -->
         };
         firebase.initializeApp(firebaseConfig);
     </script>
@@ -53,7 +53,7 @@ login
             var ui = new firebaseui.auth.AuthUI(firebase.auth());
             var user = firebase.auth().currentUser;
             if (user) {
-               window.open('https://script.google.com/macros/s/AKfycbwB6Mqlewqf6Wt_3QkdoNz7lhkwjs6bBRkAXhsEp2W7LQcE_YM/exec');    <--!Edit!!!!!!!!!!-->
+               window.open('https://script.google.com/macros/s/AKfycbwB6Mqlewqf6Wt_3QkdoNz7lhkwjs6bBRkAXhsEp2W7LQcE_YM/exec');    <!--Edit!!!!!!!!!!-->
                 document.getElementById("signOut").style.display = "inline-block";
             } else {
                 ui.start('#firebaseui-auth-container', uiConfig);
